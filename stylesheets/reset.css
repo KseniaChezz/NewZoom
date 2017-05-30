@@ -56,12 +56,13 @@ table {
 
 body, html {
 	min-width: 996px;
-	height: 100%;
   font-size: 0;
+	height: 100%;
+	background-image: url(../images/nano-02.svg);
+	background-size: cover;
 }
 
 body {
-  background-color: #cccccc;
 	font-family: 'PT Sans', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;

@@ -1,0 +1,187 @@
+.sidebar,
+.menubar {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  height: 100%;
+  background-image: url(../images/nano-03.svg);
+  background-size: cover;
+  overflow: hidden;
+}
+
+.sidebar {
+  left: 0;
+  width: 100px;
+  border-right: 1px solid lightgrey;
+}
+
+.menubar {
+  right: 0;
+  width: 150px;
+  border-left: 1px solid lightgrey;
+}
+
+/*.sidebar ul {
+  margin: 0;
+  margin-top: 20px;
+}*/
+
+.sidebarMenu {
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 70px;
+  overflow-y: scroll;
+}
+
+.sidebarMenuItem {
+  position: relative;
+  width: 69px;
+  height: 80px;
+  margin: 0 auto;
+  margin-top: 10px;
+  /*border-radius: 2px solid lightgray;*/
+  background-image: url(../images/nano-icon-05.svg);
+  background-size: cover;
+}
+
+.sidebarMenuItem:hover {
+  /*box-shadow: 0 2px 4px rgba(255, 255, 255, .2); */
+  /*background-color: grey;*/
+}
+
+.sidebarMenuItem.pers1 .persIcon::before,
+.sidebarMenuItem.pers2 .persIcon::before,
+.sidebarMenuItem.pers3 .persIcon::before,
+.sidebarMenuItem.pers4 .persIcon::before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.sidebarMenuItem.pers1 .persIcon::before { background-image: url(../images/nano-icon-06.svg);}
+.sidebarMenuItem.pers2 .persIcon::before { background-image: url(../images/nano-icon-07.svg);}
+.sidebarMenuItem.pers3 .persIcon::before { background-image: url(../images/nano-icon-08.svg);}
+.sidebarMenuItem.pers4 .persIcon::before { background-image: url(../images/nano-icon-09.svg);}
+
+/* Шестиугольник */
+/*#hexagon {
+  position: relative;
+  width: 64px;
+  height: 38px;
+  top: 21px;
+  margin: 0px auto;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#hexagon:before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  top: -19px;
+  left: 0;
+  border-left: 32px solid transparent;
+  border-right: 32px solid transparent;
+  border-bottom: 19px solid rgba(255, 255, 255, 0);
+
+}
+
+#hexagon:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  bottom: -19px;
+  left: 0;
+  border-left: 32px solid transparent;
+  border-right: 32px solid transparent;
+  border-top: 19px solid rgba(255, 255, 255, 0);
+}
+
+#hexagon:hover {
+  box-shadow: 10px rgba(255, 255, 255, .5);
+}*/
+
+
+/* Доп инфа */
+
+
+
+/*.sidebarMenuItem:hover {
+  height: auto;
+}*/
+
+/*.sidebarMenuItem:hover .sidebarSubmenu {
+  display: block;
+}*/
+
+/*.sidebarMenuItem > div {
+  position: relative;
+  width: 300px;
+  height: 50px;
+  padding: 10px 10px 10px 60px;
+  line-height: 30px;
+}*/
+
+/*.sidebarMenuItem > div:hover {
+  background: lightgrey;
+}*/
+
+/*.sidebarMenuItem::before {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  z-index: 1;
+  display: block;
+  width: 40px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  font-family: FontAwesome;
+  text-align: center;
+}*/
+
+/*.sidebarModeMenu {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  padding: 10px 0;
+  background-color: white;
+}*/
+
+/*.sidebarMenuItem.pers1::before     { content: '\f179';}
+.sidebarMenuItem.behance::before   { content: '\f1b4';}
+.sidebarMenuItem.pinterest::before { content: '\f0d2';}
+.sidebarMenuItem.facebook::before  { content: '\f09a';}
+.sidebarMenuItem.medium::before    { content: '\f23a';}
+.sidebarMenuItem.github::before    { content: '\f113';}
+.sidebarMenuItem.google::before    { content: '\f0d5';}
+.sidebarMenuItem.angellist::before { content: '\f209';}
+.sidebarMenuItem.envira::before    { content: '\f299';}
+.sidebarMenuItem.grav::before      { content: '\f2d6';}
+.sidebarMenuItem.mode::before      { content: '\f053';}*/
+
+/*
+.sidebarSubmenu {display: none;}*/
+
+/*.sidebarSubmenuItem {
+  height: 50px;
+  padding: 10px 10px 10px 60px;
+  line-height: 30px;
+}*/
+
+/*.sidebarSubmenuItem:hover {
+  background: lightgrey;
+}*/
+
+/*.sidebarSubmenuHeader {
+  display: none;
+}*/
+
+/*.compact .sidebarModeMenu {
+  width: 59px;
+}*/
